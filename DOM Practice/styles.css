@@ -1,0 +1,42 @@
+body {
+  background-color: darkblue;
+}
+
+.moon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.moon-phase {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: background-color 2s;
+  z-index: 2;
+}
+
+.cover {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: darkblue;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.moved {
+  transition: transform 2s;
+  transform: translateX(200px);
+}
+
+button {
+  position: absolute;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 300px;
+}
