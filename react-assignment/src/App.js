@@ -5,6 +5,7 @@ import DateTime from "./components/DateTime";
 import RegistrationForm from "./components/Registration";
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
+import Quotes from "./components/Quotes";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/time" element={<DateTime />} />
           <Route path="/register" element={<RegistrationForm />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/quotes" element={<Quotes />} />
         </Routes>
       </BrowserRouter>
     </div>

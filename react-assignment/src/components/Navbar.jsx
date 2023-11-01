@@ -61,6 +61,21 @@ export default function Navbar() {
                   Date
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/quotes"
+                  className="link"
+                  style={{
+                    textDecoration: "none",
+                    fontSize: "20px",
+                    backgroundColor: "#f2f2f2",
+                    padding: "10px 20px",
+                    borderRadius: "20px",
+                  }}
+                >
+                  Quotes
+                </Link>
+              </li>
               <button
                 style={{
                   padding: "10px",
