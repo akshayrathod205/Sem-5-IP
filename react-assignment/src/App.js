@@ -6,6 +6,7 @@ import RegistrationForm from "./components/Registration";
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
 import Quotes from "./components/Quotes";
+import Effect from "./components/Effect";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/register" element={<RegistrationForm />} />
           <Route path="/login" element={<Login />} />
           <Route path="/quotes" element={<Quotes />} />
+          <Route path="/effect" element={<Effect />} />
         </Routes>
       </BrowserRouter>
     </div>
