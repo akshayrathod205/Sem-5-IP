@@ -1,12 +1,10 @@
 const myPromise = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    const randomNumber = Math.random();
-    if (randomNumber < 0.5) {
-      resolve(randomNumber);
-    } else {
-      reject("Error: Number is too large");
-    }
-  }, 1000);
+  const randomNumber = Math.random();
+  if (randomNumber < 0.5) {
+    resolve(randomNumber);
+  } else {
+    reject("Error: Number is too large");
+  }
 });
 
 // Use the Promise
